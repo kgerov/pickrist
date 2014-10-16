@@ -1,0 +1,67 @@
+body, ul, header, footer, section, article, ul, li, a, span, nav, h1, h2, h3, aside, div {
+    box-sizing: border-box;
+    margin: 0;
+    moz-box-sizing: border-box;
+    padding: 0;
+    webkit-box-sizing: border-box;
+}
+
+body {
+	background: url('../images/bg-home-waffle.jpg');
+}
+
+header {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	padding-bottom: 0;
+	padding-left: 140px;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 2em;
+	color: white;
+}
+
+.yellowS {
+	color: #FFC600;
+}
+
+nav {
+	margin-top: 20px;
+}
+
+nav ul li a {
+	color: white;
+}
+
+nav ul li {
+	margin-right: 40px;
+}
+
+ul li ul {
+	height: 100px;
+	margin-top: 20px;
+	display: none;
+}
+
+#drop-down {
+	padding: 20px;
+}
+
+#log-out{
+	float: right;
+	clear: both;
+}
+
+nav ul li a:hover {
+	color: #FFC600;
+}
+
+nav #drop-down:hover ul {
+	position: absolute;
+	display: inline-block;
+}
+
+nav #drop-down ul:hover {
+	position: absolute;
+	display: inline-block;
+}

@@ -1,0 +1,94 @@
+body, ul, header, footer, section, article, ul, li, a, span, nav, h1, h2, h3, aside, div {
+    box-sizing: border-box;
+    margin: 0;
+    moz-box-sizing: border-box;
+    padding: 0;
+    webkit-box-sizing: border-box;
+}
+
+body {
+	background: url('../images/bg-home-waffle.jpg');
+}
+
+header {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	padding-left: 140px;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 2em;
+}
+
+#title-yellow {
+	color: #FFC600;
+}
+
+#title-blue {
+	color: #00D2F1;
+}
+
+main {
+	width: 60%;
+	margin: 0 auto;
+	padding-top: 40px;
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.6em;
+}
+
+main form {
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+	margin: 10px;
+	padding: 10px;
+	margin-right: 80px;
+	margin-top: 80px;
+}
+
+main form div {
+	margin-bottom: 30px;
+}
+
+form div input {
+	float: right;
+}
+
+main form input {
+	width: 300px;
+	height: 35px;
+	font-size: 1.2em;
+}
+
+main form input[type=submit] {
+	margin-left: 90px;
+	margin-top: 20px;
+	height: 45px;
+	background: none;
+	border: 2px solid #FFC600;
+	color: #FFC600;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+main form input[type=submit]:hover {
+	color: black;
+	background-color: #FFC600;
+}
+
+footer {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	margin-top: 200px;
+}
+
+footer .picture {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+.popular_pics {
+	text-align: center;
+}

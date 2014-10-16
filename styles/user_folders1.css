@@ -1,0 +1,78 @@
+.form {
+	width: 60%;
+	margin: 3% auto;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 2em;
+	color: #FFC600;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 20px;
+	padding-bottom: 35px;
+}
+
+.form input[type=text] {
+	width: 300px;
+	height: 34px;
+	border: 2px solid black;
+	padding-left: 12px;
+	font-size: 0.7em;
+	margin-left: 10px;
+}
+
+.form input[type=submit] {
+	width: 300px;
+	height: 38px;
+	font-weight: bold;
+    background: none;
+    color: #FFC600;
+    font-size: 0.7em;
+    border: 2px solid #FFC600;
+    margin-left: 30px;
+}
+
+.form input[type="submit"]:hover {
+  background-color: #FFC600;
+  color: black; 
+}
+
+#catalogues-wrapper {
+	width: 85%;
+	margin: 0 auto;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 2em;
+	color: #FFC600;
+}
+
+.catalogues-header {
+	border-bottom: 2px solid white;
+	padding-bottom: 5px;
+}
+.catalogues-header p{
+	margin-bottom: 0;
+}
+
+.catalogues {
+	margin-top: 20px;
+}
+
+.catalogues a {
+	text-decoration: none;
+	color: white;
+}
+
+.catalogues a:hover {
+	color: #FFC600;
+}
+
+.catalogues div {
+	display: inline-block;
+	border-left: 3px solid white;
+	padding-left: 10px;
+	margin-right: 20px;
+}
+
+.error-message{
+	font-size: 0.5em;
+	color: red;
+	margin-top: 10px;
+	position: absolute;
+}

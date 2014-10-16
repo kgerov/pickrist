@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  width: 40%;
+  height: 50px;
+  padding: 1.5%;
+  font-size: 2.1em;
+  border-radius: 5px;
+  color: #FFC600;
+  margin: 2% auto;
+  text-align: center;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 5% auto;
+  padding: 0.5%;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: 'Hammersmith One', sans-serif;
+   }
+  .wrapper .success, .wrapper .error {
+    text-align: center;
+    font-size: 95%;
+    font-weight: bold;
+    margin-bottom: 4%; }
+  .wrapper .success {
+    color: #044101; }
+  .wrapper .error {
+    color: #f8390f; }
+  .wrapper .form {
+    width: 60%;
+    padding: 3%;
+    font-size: 1.6em;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+    text-align: center; }
+    .wrapper .form input[type="file"], .wrapper .form select, .wrapper .form textarea, .wrapper .form input[type="submit"] {
+      display: block;
+      margin: 5% auto; }
+    .wrapper .form select {
+      width: 50%;
+      font-size: 100%;
+      color: #323232; }
+      .wrapper .form select option {
+        word-wrap: break-word;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+    .wrapper .form textarea {
+      padding: 2%; 
+      height: 150px;
+      width: 400px;
+      max-height: 150px;
+      max-width: 400px;
+    }
+    .wrapper .form textarea:active, .wrapper .form textarea:focus, .wrapper .form select:active, .wrapper .form select:focus {
+      outline: none; }
+    .wrapper .form input[type="submit"] {
+      width: 300px;
+      height: 42px;
+      font-weight: bold;
+      background: none;
+      color: #FFC600;
+      font-size: 0.8em;
+      border: 2px solid #FFC600;
+    }
+    .wrapper .form input[type="submit"]:active {
+      box-shadow: none;
+      -moz-box-shadow: none;
+      -webkit-shadow: none;
+      position: relative;
+      top: 3px;
+      outline: none;
+      background: #f8390f;
+      border: none; }
+    .wrapper .form input[type="submit"]:hover {
+      background-color: #FFC600;
+      color: black; 
+    }
